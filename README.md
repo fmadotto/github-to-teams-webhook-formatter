@@ -30,7 +30,7 @@ python -m venv venv
 
 ```
 source venv/bin/activate  # For Linux/macOS
-venv\Scripts\activate     # For Windows`
+venv\Scripts\activate     # For Windows
 ```
 
 4.  Install the required dependencies.
@@ -55,7 +55,7 @@ python app.py
 2.  Open a new terminal window and start ngrok by running:
 
 ```
-./ngrok http 5000
+./ngrok http 9001
 ```
 
 3.  Copy the HTTPS forwarding URL provided by ngrok (e.g., `https://12345abcde.ngrok.io`).

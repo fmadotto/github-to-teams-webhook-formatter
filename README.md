@@ -7,7 +7,7 @@ This is a companion repository for [this blog article on Medium](https://medium.
 ## Prerequisites
 
 - Python 3.x installed on your local machine
-- `Flask` web framework installed
+- `Flask` web framework [installed](https://flask.palletsprojects.com/en/2.2.x/installation/#install-flask)
 - `ngrok` installed for creating a tunnel to your local machine (Download from [https://ngrok.com/download](https://ngrok.com/download))
 - A GitHub repository with admin privileges
 - A Microsoft Teams account with permissions to create and manage incoming webhooks
@@ -33,7 +33,7 @@ source venv/bin/activate  # For Linux/macOS
 venv\Scripts\activate     # For Windows
 ```
 
-4.  Install the required dependencies.
+4.  Install the required dependencies (if any errors, check paths on requirements.text)
 
 ```
 pip install -r requirements.txt
@@ -50,6 +50,12 @@ pip install -r requirements.txt
 
 ```
 python app.py
+```
+
+If any errors, ensure you run your Flask application with the correct version of Python that has Flask installed e.g.
+
+```
+python3 app.py
 ```
 
 2.  Open a new terminal window and start ngrok by running:
